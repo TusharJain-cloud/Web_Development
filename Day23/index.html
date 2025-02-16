@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Display Property</title>
+    <style>
+        .box {
+            border: 2px solid red;
+            /* display: inline-block; */
+            /* display: inline; */
+            /* The display: inline property prevents width and margin from having an effect. So use inline-block*/
+            display: inline-block;
+            width: 344px;
+            padding: 45px;
+            margin: 34px;
+        }
+
+        .box1{
+            /* this property hides the box with the space it has taken */
+            /* display: none; */
+            /* this property hides the box without the space it has taken */
+            /* visibility: hidden; */
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box box1">
+        I am a box
+    </div>
+    <div class="box">I am also nice box</div>
+    <span>I am good</span>
+    <span>person</span>
+</body>
+
+</html>
